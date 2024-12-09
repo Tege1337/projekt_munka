@@ -64,7 +64,7 @@ def hatos_input():
         szam = int(input(f"Mi az {sorszam + 1}. számod? ")) 
         if szam in felhasznaloi_szamok < 0: 
             print("A megadott szám helytelen/érvénytelen! ")
-        elif szam in felhasznaloi_szamok > 90:
+        elif szam in felhasznaloi_szamok > 45:
             print("A megadott szám helytelen/érvénytelen! ")
         elif szam in felhasznaloi_szamok:
             prin("A megadott szám már szerepel a tippelt számok között! ")
