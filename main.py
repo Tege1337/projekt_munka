@@ -21,7 +21,7 @@ def otos_kivalasztva():
     if felhasznaloi_szamok == szamok:
         print("🏆 Nyertél! ")
     elif felhasznaloi_szamok != szamok:
-        print("😭 Nem nyertél! ")
+        print("😭 Nem nyertél! ")   
         
 
 
