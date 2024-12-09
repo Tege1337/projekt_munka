@@ -9,7 +9,7 @@ def otos_sorsolas():
 def hatos_sorsolas():
     szamok = []
     for x in range(0, 6):
-        szamok.append(random.randint(1, 90))
+        szamok.append(random.randint(1, 45))
     return szamok
 
 def otos_kivalasztva():
