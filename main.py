@@ -22,7 +22,7 @@ def otos_kivalasztva():
         print("🏆 Nyertél! ")
     elif felhasznaloi_szamok != szamok:
         print("😭 Nem nyertél! ")   
-        
+    for i in range(5):
 
 
 def main():
@@ -60,6 +60,8 @@ def otos_input():
             print("A megadott szám már szerepel a tippelt számok között! ")
         else:
             felhasznaloi_szamok.append(szam)
+            felhas
+as_iolan
             sorszam += 1
     return felhasznaloi_szamok
 
